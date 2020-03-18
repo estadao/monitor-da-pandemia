@@ -1,5 +1,7 @@
 d3.json("data/annotations.json").then(function(jsonData) {
 
+  document.querySelector('.country-selector').value = "China";
+
   function parseData(data) {
     /* This function and its subfunctions
     prepare the input data so we can properly
@@ -334,7 +336,7 @@ d3.json("data/annotations.json").then(function(jsonData) {
             .y(function(d){
               return yScale(+d[measure]);
             })
-            .curve(d3.curveStep);
+            .curve(d3.curveLinear);
 
           const svg = d3.select(svgSelector);
 
@@ -353,7 +355,7 @@ d3.json("data/annotations.json").then(function(jsonData) {
               .style("stroke-width", 2)
               .style("stroke", function(d){
                 if (d.key === "Brazil") {
-                  return "#60c060"
+                  return "#ffbe19"
                 }
                 else {
                   return "#555555";
@@ -380,7 +382,7 @@ d3.json("data/annotations.json").then(function(jsonData) {
               .attr("cx", d => xScale(+d.days_since_breakout))
               .attr("cy", d => yScale(+d[measure]))
               .attr("r", 3)
-              .style("fill", d => d.location == "Brazil" ? "#60c060" : "#555555" )
+              .style("fill", d => d.location == "Brazil" ? "#ffbe19" : "#555555" )
               .style("visibility", "hidden")
 
           let fakePoints = svg.selectAll("fake-point")
@@ -392,7 +394,7 @@ d3.json("data/annotations.json").then(function(jsonData) {
               .attr("cy", d => yScale(+d[measure]))
               .attr("r", "3")
               .attr("fill", "none")
-              .style("stroke", d => d.PRESIDENTE == "Brazil" ? "#60c060" : "#555555" )
+              .style("stroke", d => d.location == "Brazil" ? "#ffbe19" : "#555555" )
               .style("visibility", "hidden")
 
           // Adds animation to the fake point on the outside
@@ -779,16 +781,6 @@ d3.json("data/annotations.json").then(function(jsonData) {
               "United-States", 
               chartScales);
 
-          render(csvData, 
-              "united-states", 
-              chartDimensions,
-              chartScales, 
-              [ "Brazil", "United-States" ]);
-
-          annotateChart(jsonData, 
-            "united-states",
-            "United-States", 
-            chartScales);
 
           render(csvData, 
               "france", 

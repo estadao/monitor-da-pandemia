@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: #c07878;
+  color: #383b53;
 }
 
 /* Logo Estadão */
@@ -152,12 +152,12 @@ img.portrait {
 .brazil {
 
   font-weight: bolder;
-  color: #68688e;
+  color: #ffbe19;
 
 }
 
 .dynamic {
-  background-color: #fff;
+  background-color:#b4b8ab;
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 2px;
@@ -349,7 +349,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f5f5f5; 
+  background-color: #fff; 
   padding: 10px;
   font-family: "Lato", sans-serif;
 }
