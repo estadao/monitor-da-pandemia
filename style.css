@@ -1,0 +1,406 @@
+/* 
+////////////////////
+// Page structure //
+////////////////////
+                  */
+
+html {
+
+  font-family: Lato, sans-serif;
+
+}
+
+body {
+
+  background-color: #fff;
+
+}
+
+a {
+  color: #c07878;
+}
+
+/* Logo Estadão */
+img.face {
+  height: 100px;
+}
+
+img.logo {
+  height: 24px;
+}
+
+img.portrait {
+  height: 80px;
+  margin-top: 50px;
+  padding-bottom: 0px;
+}
+
+.estado-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 54px;
+  background-color: #fff;
+}
+
+.content {
+  margin: auto;
+  padding: 10px;
+  max-width: 1200px;
+}
+
+
+.main-chart {
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-chart-wrapper {
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+.asterisk {
+  display: block;
+  margin: auto;
+  max-width: 280px;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  color: #818181;
+}
+
+.small-multiples {
+
+  text-align: center;
+
+}
+
+.small-multiple {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.small-multiple-title {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.small-multiple-subtitle {
+  color: #818181;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 0px;
+  display: block;
+  margin: auto;
+}
+
+.title-holder, .title-holder select {
+    text-align: center;
+    line-height: 1.8;
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+  }
+
+.versus {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.country-selector {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-align-last: center;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  padding-left: 5px;
+  padding-right: 20px;
+  padding-bottom: 4px;
+  border: 1px solid #303030;
+  border-radius: 2px;
+}
+
+@media (max-width: 800px) {
+  .title-holder, .title-holder select {
+    text-align: center;
+    line-height: 1.4;
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+  }
+
+}
+
+.title-holder {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+  max-width: 550px;
+}
+
+.brazil {
+
+  font-weight: bolder;
+  color: #68688e;
+
+}
+
+.dynamic {
+  background-color: #fff;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: bolder;
+  color: #303030;
+}
+
+.select-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  top: -.25em;
+  margin: 0 .5em;
+}
+
+.chart-explainer p {
+  background-color: #fff;
+  margin: auto;
+  line-height: 1.5;
+  padding: 8px;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  max-width: 720px;
+  text-align: left;
+  align-items: center;
+}
+
+
+div.author, div.intertitle {
+  align-items: center;
+  padding-left: 5px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+p.author, p.date, h3.intertitle {
+
+  margin: auto;
+  max-width: 700px;
+  align-items: center;
+  text-align: justify;
+
+}
+
+p.author, p.date {
+
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  color: #303030;
+
+}
+
+p.author {
+  font-weight: lighter;
+}
+
+p.date {
+  font-style: italic;
+
+}
+
+p.paragraph {
+  color: #303030;
+  margin: auto;
+  padding-top: 5px;
+  line-height: 1.5;
+  padding: 5px;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  max-width: 700px;
+  text-align: left;
+  align-items: center;
+}
+
+
+/* 
+//////////////////////
+// D3 customization //
+//////////////////////
+                    */
+
+
+/* Customizes tick font */
+g.tick > text {
+
+  font-size: 12px;
+
+}
+
+text.tick-highlight {
+
+  font-weight: normal;
+  fill: #000;
+
+}
+
+
+text.tick-highlight-smaller {
+
+  font-size: 12px !important;
+  font-weight: bolder;
+  fill: #000  ;
+
+}
+
+
+text.ordinary-tick {
+
+  font-size: 14px;
+  font-weight: 500;
+/*  fill: #595959;
+*/
+}
+
+line.ordinary-line {
+  stroke: #595959;
+  stroke-width: .5px;
+}
+
+line.highlight-line {
+
+  stroke-width: 2px;
+
+}
+
+/* Customizes horizonal ticks */
+g.y-axis > .tick line {
+
+  stroke: #777;
+  stroke-dasharray: 2,3;
+
+}
+
+div.small-multiple .tick line {
+
+  opacity: .2;
+
+}
+
+/* 
+/////////////////////////////////
+// d3 annotation customization //
+/////////////////////////////////
+                               */
+
+.note-line {
+  display: none;
+}
+
+.note-line, .connector {
+  stroke-width: 1.5;
+  stroke: #818181;
+  opacity: .7;
+}
+
+.annotation-note-title {
+  font-size: 12px;
+  font-weight: normal;
+  fill: #818181;
+  opacity: 1;
+}
+
+.annotation-note-label {
+  font-size: 14px;
+  font-weight: lighter;
+  fill: #303030;
+  opacity: 1;
+}
+
+.connector-end {
+  opacity: 1;
+  stroke: #303030;
+  fill: #303030;
+}
+
+/*
+////////////
+// footer //
+////////////
+          */
+
+footer {
+
+}
+
+.footer-wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5; 
+  padding: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+.rodape {
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  /* margin: 5px; */
+}
+
+.analise, .metodologia {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title-footer {
+  text-transform: uppercase;
+  color: #303030;
+  /* padding: 5px; */
+  font-size: 14px;
+}
+
+.footer-text {
+  /* padding: 5px; */
+  /* padding-bottom: 12px; */
+  font-size: 14px;
+}
+
+.expediente-container {
+  line-height: 1.333;
+}
+
+.expediente-cargo {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #303030;
+  font-size: 10px;
+  padding-right: 3px;
+  /* white-space: nowrap; */
+
+}
+
+.expediente-nome {
+  font-weight: normal;
+  color: #303030;
+  font-size: 12px;
+  padding-right: 3px;
+}
+
+

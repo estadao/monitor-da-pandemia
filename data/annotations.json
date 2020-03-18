@@ -1,0 +1,50 @@
+[
+
+  {
+
+  "note" : {
+
+    "label" : "Com avanço do vírus, escolas são fechadas, esportes são suspensos e cinemas fechados",
+    "title" : "04.03.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "Italy",
+  "date" : "2020-03-04",
+  "value" : 2502,
+
+  "mobileDx": 0,
+  "mobileDy": 15,
+
+  "desktopDx" : 0,
+  "desktopDy" : 15
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "Governo decreta quarentena para região norte e, no dia seguinte, para todo o país",
+    "title" : "08.03.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "Italy",
+  "date" : "2020-03-08",
+  "value" : 5883,
+
+  "mobileDx": 0,
+  "mobileDy": -35,
+
+  "desktopDx" : 0,
+  "desktopDy" : -35
+
+  }
+
+]
+
+ 
