@@ -4,6 +4,53 @@
 
   "note" : {
 
+    "label" : "Primeiro relatório da OMS já registrava 278 casos",
+    "title" : "21.01.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "China",
+  "date" : "2020-01-22",
+  "value" : 310,
+
+  "mobileDx": 40,
+  "mobileDy": 0,
+
+  "desktopDx" : 40,
+  "desktopDy" : 0
+  },
+
+
+  {
+
+  "note" : {
+
+    "label" : "Cidade de Wuhan intesifica medidas de isolamento",
+    "title" : "13.02.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "China",
+  "date" : "2020-02-13",
+  "value" : 46650,
+
+  "mobileDx": 40,
+  "mobileDy": 0,
+
+  "desktopDx" : 40,
+  "desktopDy" : 0
+  },
+
+
+
+  {
+
+  "note" : {
+
     "label" : "Com avanço do vírus, escolas são fechadas, esportes são suspensos e cinemas fechados",
     "title" : "04.03.2020",
     "mobileWrap"  : 180,

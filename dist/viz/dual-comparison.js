@@ -22,14 +22,15 @@ d3.json("data/annotations.json").then(function(jsonData) {
 
         // Day when the case count reached 100
 
-        "Brazil"        : { "hundred_cases" : "2020-03-14" },
-        "Italy"         : { "hundred_cases" : "2020-02-24" },
-        "China"         : { "hundred_cases" : "2020-01-21" }, // There is no previous data. It starts already with 200+ people with the disease.
-        "South-Korea"   : { "hundred_cases" : "2020-02-20" },
-        "United-States" : { "hundred_cases" : "2020-03-04" },
-        "Spain"         : { "hundred_cases" : "2020-03-03" },
-        "Japan"         : { "hundred_cases" : "2020-02-22"},
-        "France"        : { "hundred_cases" : "2020-03-02"}
+        "Brazil"         : { "hundred_cases" : "2020-03-14" },
+        "Italy"          : { "hundred_cases" : "2020-02-24" },
+        "China"          : { "hundred_cases" : "2020-01-21" }, // There is no previous data. It starts already with 200+ people with the disease.
+        "South-Korea"    : { "hundred_cases" : "2020-02-20" },
+        "United-States"  : { "hundred_cases" : "2020-03-04" },
+        "Spain"          : { "hundred_cases" : "2020-03-03" },
+        "Japan"          : { "hundred_cases" : "2020-02-22" },
+        "France"         : { "hundred_cases" : "2020-03-02" },
+        "United-Kingdom" : { "hundred_cases" : "2020-03-06" }
  
 
       };
@@ -272,14 +273,14 @@ d3.json("data/annotations.json").then(function(jsonData) {
             xAxisHolder.select(".x-axis g.tick:first-of-type")
                 .append("text")
                 .attr("class", "tick-highlight-smaller")
-                .text("de 100")
+                .text("de 100 casos")
                 .attr("dy", 50)
                 .attr("dx", 16);
 
               xAxisHolder.select(".x-axis g.tick:first-of-type")
                 .append("text")
                 .attr("class", "tick-highlight-smaller")
-                .text("casos")
+                .text("confirmados")
                 .attr("dy", 65)
                 .attr("dx", 16);
 
@@ -336,7 +337,7 @@ d3.json("data/annotations.json").then(function(jsonData) {
             .y(function(d){
               return yScale(+d[measure]);
             })
-            .curve(d3.curveLinear);
+            .curve(d3.curveStep);
 
           const svg = d3.select(svgSelector);
 
@@ -537,6 +538,12 @@ d3.json("data/annotations.json").then(function(jsonData) {
             else if (country == "Japan") {
               prefix = "o";
               country = "Japão";
+              verb = "havia";
+            }
+
+            else if (country == "United-Kingdom") {
+              prefix = "o";
+              country = "Reino Unido";
               verb = "havia";
             }
 
@@ -815,6 +822,17 @@ d3.json("data/annotations.json").then(function(jsonData) {
             "Japan", 
             chartScales);
 
+          render(csvData, 
+              "united-kingdom", 
+              chartDimensions,
+              chartScales, 
+              [ "Brazil", "United-Kingdom" ]);
+
+          annotateChart(jsonData, 
+            "united-kingdom",
+            "United-Kingdom", 
+            chartScales);
+
       } // End of redrawSmallMultiples
 
 
@@ -901,6 +919,13 @@ d3.json("data/annotations.json").then(function(jsonData) {
             [ "Brazil", "Japan" ],
             false,
             true);
+
+      drawChart(csvData,
+          "united-kingdom", 
+          "total_cases", 
+          [ "Brazil", "United-Kingdom" ],
+          false,
+          true);
 
 
   }); // End of d3.csv
