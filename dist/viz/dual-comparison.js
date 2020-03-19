@@ -848,7 +848,7 @@ d3.json("data/annotations.json").then(function(jsonData) {
 
           annotateChart(jsonData, 
             "iran",
-            "iran", 
+            "Iran", 
             chartScales);
 
       } // End of redrawSmallMultiples

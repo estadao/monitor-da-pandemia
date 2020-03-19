@@ -86,7 +86,7 @@
   "mobileDx": 0,
   "mobileDy": -10,
 
-  "desktopDx" : 80,
+  "desktopDx" : 0,
   "desktopDy" : -15
   
   },
@@ -133,7 +133,7 @@
   "mobileDy": -1,
 
   "desktopDx" : 80,
-  "desktopDy" : -20
+  "desktopDy" : -1
   
   },
 
@@ -179,7 +179,7 @@
   "mobileDx": 0,
   "mobileDy": -35,
 
-  "desktopDx" : 0,
+  "desktopDx" : 150,
   "desktopDy" : 0
 
   },
@@ -339,10 +339,10 @@
   "value" : 144,
 
   "mobileDx": 0,
-  "mobileDy": -40,
+  "mobileDy": -120,
 
-  "desktopDx" : 0,
-  "desktopDy" : -40
+  "desktopDx" : 20,
+  "desktopDy" : -120
 
   },
 
@@ -351,7 +351,7 @@
   "note" : {
 
     "label" : "Primeiro ministro anuncia fechamento de escolas",
-    "title" : "27.02.2020",
+    "title" : "09.02.2020",
     "mobileWrap"  : 180,
     "desktopWrap" : 180
 
@@ -361,11 +361,57 @@
   "date" : "2020-02-27",
   "value" : 186,
 
+  "mobileDx": 20,
+  "mobileDy": -60,
+
+  "desktopDx" : 20,
+  "desktopDy" : -60
+
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "Estudo afirma que, sem medidas de contenção, sistema de saúde britânico não resistirá",
+    "title" : "16.03.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "United-Kingdom",
+  "date" : "2020-03-16",
+  "value" : 1391,
+
   "mobileDx": 0,
-  "mobileDy": -120,
+  "mobileDy": 0,
 
   "desktopDx" : 0,
-  "desktopDy" : -120
+  "desktopDy" : 0
+
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "Primeiro ministro anuncia fechamento de escolas",
+    "title" : "18.03.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "United-Kingdom",
+  "date" : "2020-03-18",
+  "value" : 1950,
+
+  "mobileDx": 0,
+  "mobileDy": -30,
+
+  "desktopDx" : 0,
+  "desktopDy" : -30
 
   }
 
