@@ -6,7 +6,6 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Monitor da pandemia</title>
   <link rel="stylesheet" href="style.css?v=0.0.1">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,900" rel="stylesheet">
 
