@@ -1,5 +1,5 @@
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/include/core.php' ?>
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 
   <?php $core->include('head-opening') ?>
