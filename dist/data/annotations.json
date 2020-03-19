@@ -12,8 +12,8 @@
     },
 
   "location" : "China",
-  "date" : "2020-01-22",
-  "value" : 310,
+  "date" : "2020-01-20",
+  "value" : 216,
 
   "mobileDx": 40,
   "mobileDy": 0,
@@ -36,7 +36,7 @@
 
   "location" : "China",
   "date" : "2020-02-13",
-  "value" : 46650,
+  "value" : 59865,
 
   "mobileDx": 40,
   "mobileDy": 0,
@@ -63,8 +63,78 @@
   "mobileDx": 45,
   "mobileDy": -1,
 
-  "desktopDx" : 45,
+  "desktopDx" : 120,
   "desktopDy" : -1
+
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "País chega à marca de 250 mil testes: de cada mil habitantes, 5 foram testados",
+    "title" : "14.03.2020",
+    "mobileWrap"  : 140,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "South-Korea",
+  "date" : "2020-03-14",
+  "value" : 8086,
+
+  "mobileDx": 0,
+  "mobileDy": -10,
+
+  "desktopDx" : 80,
+  "desktopDy" : -15
+  
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "Madri anuncia fechamento de escolas",
+    "title" : "09.03.2020",
+    "mobileWrap"  : 140,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "Spain",
+  "date" : "2020-03-09",
+  "value" : 589,
+
+  "mobileDx": 45,
+  "mobileDy": 0,
+
+  "desktopDx" : 80,
+  "desktopDy" : 0
+  
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "Um dia depois de Madri, toda a Espanha entra em quarentena e fecha serviços não-essenciais",
+    "title" : "14.03.2020",
+    "mobileWrap"  : 140,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "Spain",
+  "date" : "2020-03-14",
+  "value" : 4231,
+
+  "mobileDx": 45,
+  "mobileDy": -1,
+
+  "desktopDx" : 80,
+  "desktopDy" : -20
+  
   },
 
 
@@ -110,9 +180,198 @@
   "mobileDy": -35,
 
   "desktopDx" : 0,
-  "desktopDy" : -35
+  "desktopDy" : 0
+
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "Trump acusa imprensa e democratas de 'inflamarem' a situação da epidemia",
+    "title" : "09.03.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "United-States",
+  "date" : "2020-03-09",
+  "value" : 554,
+
+  "mobileDx": 20,
+  "mobileDy": 0,
+
+  "desktopDx" : 20,
+  "desktopDy" : 0
+
+  },
+
+
+  {
+
+  "note" : {
+
+    "label" : "Estado de Nova Iorque proíbe reuniões de mais de 500 pessoas",
+    "title" : "12.03.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "United-States",
+  "date" : "2020-03-12",
+  "value" : 1312,
+
+  "mobileDx": 0,
+  "mobileDy": -55,
+
+  "desktopDx" : 0,
+  "desktopDy" : -55
+
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "Todas as universidades e escolas do país são fechadas",
+    "title" : "12.03.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "France",
+  "date" : "2020-03-12",
+  "value" : 2281,
+
+  "mobileDx": 10,
+  "mobileDy": 0,
+
+  "desktopDx" : 10,
+  "desktopDy" : 0
+
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "Presidente determina que população fique em casa e proíbe deslocamentos desnecessários",
+    "title" : "17.03.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "France",
+  "date" : "2020-03-17",
+  "value" : 6663,
+
+  "mobileDx": 0,
+  "mobileDy": -10,
+
+  "desktopDx" : 0,
+  "desktopDy" : -10
+
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "70 mil presos são liberados temporariamente para reduzir a contaminação carcerária",
+    "title" : "09.03.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "Iran",
+  "date" : "2020-03-09",
+  "value" : 6566,
+
+  "mobileDx": 50,
+  "mobileDy": 0,
+
+  "desktopDx" : 50,
+  "desktopDy" : 0
+
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "Locais de culto são fechados compulsoriamente",
+    "title" : "13.03.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "Iran",
+  "date" : "2020-03-13",
+  "value" : 10075,
+
+  "mobileDx": 0,
+  "mobileDy": -20,
+
+  "desktopDx" : 0,
+  "desktopDy" : -20
+
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "Governo anuncia plano para detectar e isolar centros locais de difusão da doença",
+    "title" : "25.02.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "Japan",
+  "date" : "2020-02-25",
+  "value" : 144,
+
+  "mobileDx": 0,
+  "mobileDy": -40,
+
+  "desktopDx" : 0,
+  "desktopDy" : -40
+
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "Primeiro ministro anuncia fechamento de escolas",
+    "title" : "27.02.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "Japan",
+  "date" : "2020-02-27",
+  "value" : 186,
+
+  "mobileDx": 0,
+  "mobileDy": -120,
+
+  "desktopDx" : 0,
+  "desktopDy" : -120
 
   }
+
+
+
+
 
 ]
 
