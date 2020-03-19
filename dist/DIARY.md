@@ -1,8 +1,6 @@
-**Fontes dos dados**: [Our World In Data](https://ourworldindata.org/coronavirus-source-data), que compila e corrige os dados da Organização Mundial da Saúde.
+**Fonte dos dados**: [Our World In Data](https://ourworldindata.org/coronavirus-source-data), que compila e corrige os dados da Organização Mundial da Saúde.
 
-**Países comparados**: Brasil, Itália, China, Coréia do Sul
-
-**Fontes**:
+**Fontes das datas/eventos citados nas análises de cada país**:
 
 https://www.propublica.org/article/how-south-korea-scaled-coronavirus-testing-while-the-us-fell-dangerously-behind
 

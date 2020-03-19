@@ -260,7 +260,7 @@ d3.json("data/annotations.json").then(function(jsonData) {
                 .attr("class", "tick-highlight-smaller")
                 .text("dia")
                 .attr("dy", 20)
-                .attr("dx", 22);
+                .attr("dx", 20);
 
             // And below
             xAxisHolder.select(".x-axis g.tick:first-of-type")
