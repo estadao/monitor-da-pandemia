@@ -1,6 +1,8 @@
-<!DOCTYPE html>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/include/core.php' ?>
+!DOCTYPE html>
+<html lang="pt-BR">
 
-<html>
+  <?php $core->include('head-opening') ?>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +10,18 @@
   <link rel="stylesheet" href="style.css?v=0.0.1">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,900" rel="stylesheet">
 
+  <title><?= $app->title ?> – Estadão</title>
 
+  <?php $core->include('seo') ?>
+  <?php $core->include('sharing') ?>
+  <?php $core->include('favicon') ?>
 
-<body>
+  <?php $core->include('head-closing') ?>
+
+  <body>
+
+    <?php $core->include('body-opening') ?>
+
 
     <div class="estado-header">
       <a href="https://www.estadao.com.br/">
@@ -251,15 +262,18 @@
       </div>
 
     </footer>
+
+    <!-- d3.js-->
+    <script src="https://d3js.org/d3.v5.js?v=0.0.2"></script>
+
+    <!-- d3 annotations -->
+    <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+
+    <!-- chart -->
+    <script src="viz/dual-comparison.js?v=0.0.1"></script>
+
+
   </body>
-
-  <!-- d3.js-->
-  <script src="https://d3js.org/d3.v5.js?v=0.0.2"></script>
-
-  <!-- d3 annotations -->
-  <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
-
-  <!-- chart -->
-  <script src="viz/dual-comparison.js?v=0.0.1"></script>
+  <?php $core->include('body-closing') ?>
 
 </html>
