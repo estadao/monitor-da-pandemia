@@ -24,13 +24,14 @@ d3.json("data/annotations.json").then(function(jsonData) {
 
         "Brazil"         : { "hundred_cases" : "2020-03-14" },
         "Italy"          : { "hundred_cases" : "2020-02-24" },
-        "China"          : { "hundred_cases" : "2020-01-21" }, // There is no previous data. It starts already with 200+ people with the disease.
+        "China"          : { "hundred_cases" : "2020-01-19" }, // There is no previous data. It starts already with 200+ people with the disease.
         "South-Korea"    : { "hundred_cases" : "2020-02-20" },
         "United-States"  : { "hundred_cases" : "2020-03-04" },
         "Spain"          : { "hundred_cases" : "2020-03-03" },
         "Japan"          : { "hundred_cases" : "2020-02-22" },
         "France"         : { "hundred_cases" : "2020-03-02" },
-        "United-Kingdom" : { "hundred_cases" : "2020-03-06" }
+        "United-Kingdom" : { "hundred_cases" : "2020-03-06" },
+        "Iran"           : { "hundred_cases" : "2020-02-28" }
  
 
       };
@@ -547,6 +548,12 @@ d3.json("data/annotations.json").then(function(jsonData) {
               verb = "havia";
             }
 
+            else if (country == "Iran") {
+              prefix = "o";
+              country = "Irã";
+              verb = "havia";
+            }
+
 
 
             let htmlContent = `<p class="chart-explainer">A contagem mais recente de casos de covid-19 no Brasil foi divulgada pela OMS em ${brazilTime.mostRecentReport}, o <span class="dynamic">${brazilTime.days}º dia</span> desde que o número de diagnósticos no país superou <strong>100</strong>. Até agora, foram registrados <span class="dynamic"><strong>${brazilMeasures.value} casos</strong></span> da doença no país. Para comparar, ${prefix} <span class="dynamic">${country}</span> ${verb} diagnosticado <span class="dynamic"><strong>${otherMeasures.value}</strong> casos</span> no mesmo intervalo.</p>`;
@@ -833,6 +840,17 @@ d3.json("data/annotations.json").then(function(jsonData) {
             "United-Kingdom", 
             chartScales);
 
+          render(csvData, 
+              "iran", 
+              chartDimensions,
+              chartScales, 
+              [ "Brazil", "Iran" ]);
+
+          annotateChart(jsonData, 
+            "iran",
+            "iran", 
+            chartScales);
+
       } // End of redrawSmallMultiples
 
 
@@ -924,6 +942,13 @@ d3.json("data/annotations.json").then(function(jsonData) {
           "united-kingdom", 
           "total_cases", 
           [ "Brazil", "United-Kingdom" ],
+          false,
+          true);
+
+      drawChart(csvData,
+          "iran", 
+          "total_cases", 
+          [ "Brazil", "Iran" ],
           false,
           true);
 

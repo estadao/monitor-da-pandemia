@@ -4,8 +4,8 @@
 
   "note" : {
 
-    "label" : "Primeiro relatório da OMS já registrava 278 casos",
-    "title" : "21.01.2020",
+    "label" : "Casos confirmados saltam de 80 para 216 em um dia",
+    "title" : "19.01.2020",
     "mobileWrap"  : 180,
     "desktopWrap" : 180
 
@@ -29,8 +29,8 @@
 
     "label" : "Cidade de Wuhan intesifica medidas de isolamento",
     "title" : "13.02.2020",
-    "mobileWrap"  : 180,
-    "desktopWrap" : 180
+    "mobileWrap"  : 120,
+    "desktopWrap" : 120
 
     },
 
@@ -43,6 +43,28 @@
 
   "desktopDx" : 40,
   "desktopDy" : 0
+  },
+
+  {
+
+  "note" : {
+
+    "label" : "Salto de casos atribuído ao 'paciente 31', considerado um 'super-espalhador'",
+    "title" : "22.02.2020",
+    "mobileWrap"  : 180,
+    "desktopWrap" : 180
+
+    },
+
+  "location" : "South-Korea",
+  "date" : "2020-02-22",
+  "value" : 346,
+
+  "mobileDx": 45,
+  "mobileDy": -1,
+
+  "desktopDx" : 45,
+  "desktopDy" : -1
   },
 
 
