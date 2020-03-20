@@ -264,13 +264,13 @@
     </footer>
 
     <!-- d3.js-->
-    <script src="https://d3js.org/d3.v5.js?v=0.0.2"></script>
+    <script src="https://d3js.org/d3.v5.js"></script>
 
     <!-- d3 annotations -->
     <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
 
     <!-- chart -->
-    <script src="viz/dual-comparison.js?v=0.0.1"></script>
+    <script src="viz/dual-comparison.js?v=0.0.3"></script>
 
 
   </body>

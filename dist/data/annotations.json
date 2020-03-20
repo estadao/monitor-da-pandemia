@@ -15,10 +15,10 @@
   "date" : "2020-01-20",
   "value" : 216,
 
-  "mobileDx": 40,
+  "mobileDx": 45,
   "mobileDy": -1,
 
-  "desktopDx" : 60,
+  "desktopDx" : 65,
   "desktopDy" : -1
   },
 
@@ -84,7 +84,7 @@
   "value" : 8086,
 
   "mobileDx": 0,
-  "mobileDy": -10,
+  "mobileDy": -8,
 
   "desktopDx" : 0,
   "desktopDy" : -15
@@ -165,7 +165,7 @@
 
   "note" : {
 
-    "label" : "Governo decreta quarentena para região norte e, no dia seguinte, para todo o país",
+    "label" : "Governo decreta quarentena na região norte e, no dia seguinte, em todo o país",
     "title" : "08.03.2020",
     "mobileWrap"  : 180,
     "desktopWrap" : 180
@@ -384,10 +384,10 @@
   "date" : "2020-03-16",
   "value" : 1391,
 
-  "mobileDx": 0,
+  "mobileDx": 10,
   "mobileDy": 0,
 
-  "desktopDx" : 0,
+  "desktopDx" : 10,
   "desktopDy" : 0
 
   },
