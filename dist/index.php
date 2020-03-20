@@ -63,7 +63,7 @@
 
           <div class="main-chart"></div>
 
-          <p class="asterisk"><strong>Importante</strong>: Os dados são da OMS, compilados diariamente pelo site <a href="https://ourworldindata.org/coronavirus-source-data" target="_blank" rel="noopener">Our World in Data</a>. <strong>Eles são atualizados de forma menos frequente que os dados do Ministério da Saúde</strong>, o que pode causar <strong>divergência com os números divulgados pelo governo brasileiro.</strong> Além disso, os números de casos confirmados estão relacionados à quantidade de testes de cada país. A Coreia do Sul, por exemplo, tenta testar a maior parte possível da população. No Brasil, o plano é testar apenas casos suspeitos, o que pode fazer com que o número de casos seja significativamente maior do que a contagem indica.</p>
+          <p class="asterisk"><strong>Importante</strong>: Os dados são da ECDC (o Centro Europeu para Controle e Prevenção de Doenças, na sigla em inglês), compilados diariamente pelo site <a href="https://ourworldindata.org/coronavirus-source-data" target="_blank" rel="noopener">Our World in Data</a>, ligado à Universidade de Oxford, na Inglaterra. <strong>Eles são atualizados de forma menos frequente que os dados do Ministério da Saúde</strong>, o que pode causar <strong>divergência com os números divulgados pelo governo brasileiro.</strong> Além disso, os números de casos confirmados estão relacionados à quantidade de testes de cada país. A Coreia do Sul, por exemplo, tenta testar a maior parte possível da população. No Brasil, o plano é testar apenas casos suspeitos, o que pode fazer com que o número de casos seja significativamente maior do que a contagem indica.</p>
 
         </div>
 
@@ -91,7 +91,7 @@
 
             <p class="paragraph">O último número é mais ou menos o patamar em que o Brasil se encontrava no dia 17 de março, poucos dias depois de governos estaduais e federais começarem a adotar medidas de contenção do contágio, como o <a href="https://saude.estadao.com.br/noticias/geral,o-que-abre-e-o-que-fecha-no-comercio-de-sao-paulo-durante-a-quarentena-do-coronavirus,70003240447" target="_blank" rel="noopener">fechamento do comércio em São Paulo</a> e o cancelamento das aulas em universidades e escolas.</p>
 
-          <p class="paragraph">O Ministério da Saúde, entretanto, afirma que não tem condições de fazer testes diagnósticos em larga escala, o que contradiz as orientações da OMS. Hoje, o país só testa os casos suspeitos, o que pode fazer com que <a href="https://saude.estadao.com.br/noticias/geral,presidente-do-hospital-albert-einstein-preve-pico-do-novo-coronavirus-em-duas-semanas,70003239115" target="_blank", rel="noopener noreferer">o número de casos fique subestimado</a>.</p>
+            <p class="paragraph">O Ministério da Saúde, entretanto, afirma que não tem condições de fazer testes diagnósticos em larga escala, o que contradiz as orientações da OMS. Hoje, o país só testa os casos suspeitos, o que pode fazer com que <a href="https://saude.estadao.com.br/noticias/geral,presidente-do-hospital-albert-einstein-preve-pico-do-novo-coronavirus-em-duas-semanas,70003239115" target="_blank", rel="noopener noreferer">o número de casos fique subestimado</a>.</p>
 
 
             <p class="paragraph">Entretanto, se o ritmo de crescimento seguir como está, a conta continua. Esses 256 geram 512. Esses 512 geram 1024. (Calma, é agora que os números ficam interessantes!) Esses 1024 geram 2048. Esses 2048 gram 4096. Esses 4096 geram 8192. Esses 8192 geram 16384… E, aí, já estamos com mais 30 mil novos casos a cada geração de contágio.</p>
@@ -241,7 +241,7 @@
 
             <div class="metodologia">
 
-                <p class="footer-text">Os dados desta reportagem são compilados diariamente a partir de relatórios da Organização Mundial da Saúde pela organização  <a href="https://ourworldindata.org/coronavirus-source-data" target="_blank" rel="noopener">Our World in Data</a>. O código fonte e a base de dados usados para gerar os gráficos estão disponíveis no <a href="https://github.com/estadao/monitor-da-pandemia" target="_blank" rel="noopener">GitHub do Estadão</a>.</p>
+                <p class="footer-text">Os dados desta reportagem são compilados diariamente a partir de relatórios do Centro Europeu para Controle e Prevenção de Doenças (ECDC) pela organização <a href="https://ourworldindata.org/coronavirus-source-data" target="_blank" rel="noopener">Our World in Data</a>, ligada à Universidade de Oxford, na Inglaterra. Até a manhã de 20 de março, a reportagem mostrava dados de uma fonte diferente, compilados pela Organização Mundial de Saúde (OMS). O código fonte e a base de dados usados para gerar os gráficos estão disponíveis no <a href="https://github.com/estadao/monitor-da-pandemia" target="_blank" rel="noopener">GitHub do Estadão</a>.</p>
 
             </div>
 
