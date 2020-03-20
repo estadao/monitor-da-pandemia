@@ -16,10 +16,10 @@
   "value" : 216,
 
   "mobileDx": 40,
-  "mobileDy": 0,
+  "mobileDy": -1,
 
-  "desktopDx" : 40,
-  "desktopDy" : 0
+  "desktopDx" : 60,
+  "desktopDy" : -1
   },
 
 
@@ -143,22 +143,22 @@
 
   "note" : {
 
-    "label" : "Com avanço do vírus, escolas são fechadas, esportes são suspensos e cinemas fechados",
-    "title" : "04.03.2020",
+    "label" : "Escolas, eventos e o carnaval são cancelados em locais específicos do norte italiano",
+    "title" : "24.02.2020",
     "mobileWrap"  : 180,
     "desktopWrap" : 180
 
     },
 
   "location" : "Italy",
-  "date" : "2020-03-04",
-  "value" : 2502,
+  "date" : "2020-02-24",
+  "value" : 132,
 
-  "mobileDx": 0,
-  "mobileDy": 15,
+  "mobileDx": 40,
+  "mobileDy": -1,
 
-  "desktopDx" : 0,
-  "desktopDy" : 15
+  "desktopDx" : 85,
+  "desktopDy" : -1
   },
 
   {
@@ -292,7 +292,7 @@
   "date" : "2020-03-09",
   "value" : 6566,
 
-  "mobileDx": 50,
+  "mobileDx": 40,
   "mobileDy": 0,
 
   "desktopDx" : 50,

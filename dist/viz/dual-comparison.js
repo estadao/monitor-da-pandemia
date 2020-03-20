@@ -118,7 +118,7 @@ d3.json("data/annotations.json").then(function(jsonData) {
 
         data = data.filter(function(d) {
 
-          return countries.includes(d.location) & d.days_since_breakout > 0;
+          return countries.includes(d.location) & d.days_since_breakout >= 0;
 
         }) // End of d3 filter
 
@@ -150,10 +150,10 @@ d3.json("data/annotations.json").then(function(jsonData) {
         // Days passed since the first day avaliable in the data to today
         let casesStart =  new Date("2020-01-21");
         let xMax = Date.now() - casesStart.getTime();
-            xMax = xMax / (1000 * 3600 * 24); // Milliseconds to days
+            xMax = xMax / (1000 * 3600 * 24) + 1; // Milliseconds to days
 
         const xPositionScale = d3.scaleLinear()
-          .domain([ 1, xMax ]) 
+          .domain([ 0, xMax ]) 
           .range([0, dimensions.width]);
 
         const yPositionScale = d3.scaleLog()
@@ -179,13 +179,13 @@ d3.json("data/annotations.json").then(function(jsonData) {
         for desktop */
 
         let dimensions = { };
-        dimensions.margin = { top: 25, left: 48, right: 20, bottom: 100};
+        dimensions.margin = { top: 30, left: 50, right: 50, bottom: 100};
 
 
         if ( isMobile() ) {
 
           dimensions.height = 300 - dimensions.margin.top - dimensions.margin.bottom,
-          dimensions.width  = 300 - dimensions.margin.left - dimensions.margin.right;
+          dimensions.width  = 320 - dimensions.margin.left - dimensions.margin.right;
 
         } // End of if
 

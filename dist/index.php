@@ -63,7 +63,7 @@
 
           <div class="main-chart"></div>
 
-          <p class="asterisk"><strong>Importante</strong>: Os dados são da OMS, compilados diariamente pelo site <a href="https://ourworldindata.org/coronavirus-source-data" target="_blank">Our World in Data</a>. <strong>Eles são atualizados de forma menos frequente que os dados do Ministério da Saúde</strong>, o que pode causar <strong>divergência com os números divulgados pelo governo brasileiro.</strong> Além disso, os números de casos confirmados estão relacionados à quantidade de testes de cada país. A Coreia do Sul, por exemplo, tenta testar a maior parte possível da população. No Brasil, o plano é testar apenas casos suspeitos, o que pode fazer com que o número de casos seja significativamente maior do que a contagem indica.</p>
+          <p class="asterisk"><strong>Importante</strong>: Os dados são da OMS, compilados diariamente pelo site <a href="https://ourworldindata.org/coronavirus-source-data" target="_blank" rel="noopener">Our World in Data</a>. <strong>Eles são atualizados de forma menos frequente que os dados do Ministério da Saúde</strong>, o que pode causar <strong>divergência com os números divulgados pelo governo brasileiro.</strong> Além disso, os números de casos confirmados estão relacionados à quantidade de testes de cada país. A Coreia do Sul, por exemplo, tenta testar a maior parte possível da população. No Brasil, o plano é testar apenas casos suspeitos, o que pode fazer com que o número de casos seja significativamente maior do que a contagem indica.</p>
 
         </div>
 
@@ -81,7 +81,7 @@
 
             <p class="paragraph"><strong>Quando você fizer isso, preste atenção em um detalhe!</strong> Os gráficos estão em escala logarítmica. Repare na ordem dos números no canto esquerdo: eles começam em 100, mas logo passam para 1 mil, 10 mil e 100 mil.</p>
 
-            <p class="paragraph">Um gráfico mais tradicional, com uma escala linear que cresce normalmente, não iria mostrar a velocidade com que a doença se multiplica no início de um surto local.</p>
+            <p class="paragraph">Um gráfico mais tradicional, com uma escala linear que cresce normalmente, não iria mostrar <a href="https://www.estadao.com.br/infograficos/saude,como-a-matematica-pode-ajudar-a-entender-e-combater-epidemias,1082298" target="blank" rel="noopener noreferer">a velocidade com que a doença se multiplica</a> no início de um surto local.</p>
 
             <p class="paragraph">Esse dado é crucial porque, como o novo coronavírus tem uma capacidade de <strong>crescimento exponencial</strong>, é tão importante olharmos para o <strong>ritmo de crescimento</strong> quanto para o total de casos.</p>
 
@@ -89,15 +89,16 @@
 
             <p class="paragraph">Como cada pessoa com o vírus infecta em média outras duas, a progressão acontece da seguinte maneira: o primeiro caso gera mais dois. Estes dois geram mais quatro. Estes quatro geram mais oito. Esses oito geram 16. Esses 16 geram 32. Esses 32 geram 64. Esses 64 geram 128. Esses 128 geram 256…</p>
 
-            <p class="paragraph">O último número é mais ou menos o patamar em que o Brasil se encontrava no dia 17 de março, poucos dias depois de governos estaduais e federais começarem a adotar medidas de contenção do contágio, como o fechamento de shoppings em São Paulo e o cancelamento das aulas em universidades e escolas.</p>
+            <p class="paragraph">O último número é mais ou menos o patamar em que o Brasil se encontrava no dia 17 de março, poucos dias depois de governos estaduais e federais começarem a adotar medidas de contenção do contágio, como o <a href="https://saude.estadao.com.br/noticias/geral,o-que-abre-e-o-que-fecha-no-comercio-de-sao-paulo-durante-a-quarentena-do-coronavirus,70003240447" target="_blank" rel="noopener">fechamento do comércio em São Paulo e o cancelamento das aulas em universidades e escolas.</p>
 
-            <p class="paragraph">O Ministério da Saúde, entretanto, afirma que não tem condições de fazer testes diagnósticos em larga escala, o que contradiz as orientações da OMS. Hoje, o país só testa os casos suspeitos, o que pode fazer com que o número de casos fique subestimado.</p>
+          <p class="paragraph">O Ministério da Saúde, entretanto, afirma que não tem condições de fazer testes diagnósticos em larga escala, o que contradiz as orientações da OMS. Hoje, o país só testa os casos suspeitos, o que pode fazer com que <a href="https://saude.estadao.com.br/noticias/geral,presidente-do-hospital-albert-einstein-preve-pico-do-novo-coronavirus-em-duas-semanas,70003239115" target="_blank", rel="noopener noreferer">o número de casos fique subestimado</a>.</p>
+
 
             <p class="paragraph">Entretanto, se o ritmo de crescimento seguir como está, a conta continua. Esses 256 geram 512. Esses 512 geram 1024. (Calma, é agora que os números ficam interessantes!) Esses 1024 geram 2048. Esses 2048 gram 4096. Esses 4096 geram 8192. Esses 8192 geram 16384… E, aí, já estamos com mais 30 mil novos casos a cada geração de contágio.</p>
 
-            <p class="paragraph">É por isso que especialistas em saúde pública e a Organização Mundial da Saúde apostam suas fichas em estratégias que possam <strong>"achatar a curva"</strong> - ou seja, fazer com que os gráficos em disparada que você viu acima em países como Itália e Espanha fiquem progressivamente mais retos, como os da China ou da Coreia do Sul.</p>
+            <p class="paragraph">É por isso que especialistas em saúde pública e a Organização Mundial da Saúde apostam suas fichas em estratégias que possam <strong><a href="https://www.estadao.com.br/infograficos/saude,coronavirus-simulador-do-washington-post,1084401" target="_blank" rel="noopener noreferer">"achatar a curva"</a></strong> - ou seja, fazer com que os gráficos em disparada que você viu acima em países como Itália e Espanha fiquem progressivamente mais retos, como os da China ou da Coreia do Sul.</p>
 
-            <p class="paragraph">De acordo com um estudo divulgado pelo Imperial College London, com uma curva mais chata, a pandemia e as medidas de contenção devem durar um período longo, mas o número de pessoas com sintomas ao mesmo tempo seria menor. Isso evita a sobrecarga dos hospitais.</p>
+            <p class="paragraph">De acordo com <a href="https://www.imperial.ac.uk/news/196234/covid19-imperial-researchers-model-likely-impact/" target="_blank" rel="noopener noreferer">um estudo</a> divulgado pelo Imperial College London, com uma curva mais chata, a pandemia e as medidas de contenção devem durar um período longo, mas o número de pessoas com sintomas ao mesmo tempo seria menor. Isso evita a sobrecarga dos hospitais.</p>
 
             <p class="paragraph">A alternativa é que a crise dure menos tempo, mas com uma taxa de infecções capaz de fazer o sistema de saúde entrar em colapso. Essa realidade, na projeção do estudo, pode deixar milhões de mortos.</p>
 
@@ -240,7 +241,7 @@
 
             <div class="metodologia">
 
-                <p class="footer-text">Os dados desta reportagem são compilados diariamente a partir de relatórios da Organização Mundial da Saúde pela organização  <a href="https://ourworldindata.org/coronavirus-source-data" target="_blank">Our World in Data</a>. O código fonte e a base de dados usados para gerar os gráficos estão disponíveis no <a href="https://github.com/estadao/monitor-da-pandemia" target="_blank">GitHub do Estadão</a>.</p>
+                <p class="footer-text">Os dados desta reportagem são compilados diariamente a partir de relatórios da Organização Mundial da Saúde pela organização  <a href="https://ourworldindata.org/coronavirus-source-data" target="_blank" rel="noopener">Our World in Data</a>. O código fonte e a base de dados usados para gerar os gráficos estão disponíveis no <a href="https://github.com/estadao/monitor-da-pandemia" target="_blank" rel="noopener">GitHub do Estadão</a>.</p>
 
             </div>
 
