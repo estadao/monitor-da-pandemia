@@ -250,10 +250,10 @@
               <h3 class="title-footer">Expediente</h3>
 
               <div class="expediente-container">
-                <span class="expediente-cargo">Editor Executivo de Arte:</span><span class="expediente-nome">Fábio Sales</span>
-                <span class="expediente-cargo">Editora de Infografia:</span><span class="expediente-nome">Regina Elisabeth Silva</span>
-                <span class="expediente-cargo">Editor-assistente de Infografia:</span><span class="expediente-nome">Carlos Marin</span>
-                <span class="expediente-cargo">Design e esenvolvimento:</span><span class="expediente-nome">Rodrigo Menegat</span>
+                <span class="expediente-cargo">Editor Executivo Multmídia:</span><span class="expediente-nome">Fábio Sales</span>
+                <span class="expediente-cargo">Editora de Infografia Multimídia:</span><span class="expediente-nome">Regina Elisabeth Silva</span>
+                <span class="expediente-cargo">Editor-assistente de Infografia Multimídia:</span><span class="expediente-nome">Carlos Marin</span>
+                <span class="expediente-cargo">Design e desenvolvimento:</span><span class="expediente-nome">Rodrigo Menegat</span>
 
               </div>
 
