@@ -63,14 +63,13 @@
 
           <div class="main-chart"></div>
 
-          <p class="asterisk"><strong>Importante</strong>: Os dados são da ECDC (o Centro Europeu para Controle e Prevenção de Doenças, na sigla em inglês), compilados diariamente pelo site <a href="https://ourworldindata.org/coronavirus-source-data" target="_blank" rel="noopener">Our World in Data</a>, ligado à Universidade de Oxford, na Inglaterra. <strong>Eles são atualizados de forma menos frequente que os dados do Ministério da Saúde</strong>, o que pode causar <strong>divergência com os números divulgados pelo governo brasileiro.</strong> Além disso, os números de casos confirmados estão relacionados à quantidade de testes de cada país. A Coreia do Sul, por exemplo, tenta testar a maior parte possível da população. No Brasil, o plano é testar apenas casos suspeitos, o que pode fazer com que o número de casos seja significativamente maior do que a contagem indica.</p>
+          <p class="asterisk"><strong>Importante</strong>: Os dados são da ECDC* (o Centro Europeu para Controle e Prevenção de Doenças, na sigla em inglês), compilados diariamente pelo site <a href="https://ourworldindata.org/coronavirus-source-data" target="_blank" rel="noopener">Our World in Data</a>, ligado à Universidade de Oxford, na Inglaterra. <strong>Eles são atualizados de forma menos frequente que os dados do Ministério da Saúde</strong>, o que pode causar <strong>divergência com os números divulgados pelo governo brasileiro.</strong> Além disso, os números de casos confirmados estão relacionados à quantidade de testes de cada país. A Coreia do Sul, por exemplo, tenta testar a maior parte possível da população. No Brasil, o plano é testar apenas casos suspeitos, o que pode fazer com que o número de casos seja significativamente maior do que a contagem indica.</p>
 
         </div>
 
         <div class="author">
 
           <p class="author">Rodrigo Menegat e Daniel Bramatti</p>
-          <p class="date">19 de março de 2020</p>
 
         </div>
 

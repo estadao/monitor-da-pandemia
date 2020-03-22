@@ -556,7 +556,7 @@ d3.json("data/annotations.json").then(function(jsonData) {
 
 
 
-            let htmlContent = `<p class="chart-explainer">A contagem mais recente de casos de covid-19 no Brasil foi divulgada pela OMS em ${brazilTime.mostRecentReport}, o <span class="dynamic">${brazilTime.days}º dia</span> desde que o número de diagnósticos no país superou <strong>100</strong>. Até agora, foram registrados <span class="dynamic"><strong>${brazilMeasures.value} casos</strong></span> da doença no país. Para comparar, ${prefix} <span class="dynamic">${country}</span> ${verb} diagnosticado <span class="dynamic"><strong>${otherMeasures.value}</strong> casos</span> no mesmo intervalo.</p>`;
+            let htmlContent = `<p class="chart-explainer">A contagem mais recente de casos de covid-19 no Brasil foi divulgada pelo ECDC (Centro Europeu para Controle e Prevenção de Doenças) em ${brazilTime.mostRecentReport}, o <span class="dynamic">${brazilTime.days}º dia</span> desde que o número de diagnósticos no país superou <strong>100</strong>. Até essa data, o ECDC registrou <span class="dynamic"><strong>${brazilMeasures.value} casos</strong></span> da doença no país. Para comparar, ${prefix} <span class="dynamic">${country}</span> ${verb} diagnosticado <span class="dynamic"><strong>${otherMeasures.value}</strong> casos</span> no mesmo intervalo.</p>`;
 
             return {
 
