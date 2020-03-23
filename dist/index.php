@@ -70,6 +70,7 @@
         <div class="author">
 
           <p class="author">Rodrigo Menegat e Daniel Bramatti</p>
+          <p class="date">Texto publicado em 19 de março de 2020. Gráficos atualizados diariamente desde então.</p>
 
         </div>
 
