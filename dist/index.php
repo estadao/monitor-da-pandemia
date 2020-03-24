@@ -270,7 +270,7 @@
     <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
 
     <!-- chart -->
-    <script src="viz/dual-comparison.js?v=0.0.3"></script>
+    <script src="viz/dual-comparison.js?v=0.0.4"></script>
 
 
   </body>
