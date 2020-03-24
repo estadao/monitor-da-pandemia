@@ -79,7 +79,15 @@ d3.json("data/annotations.json").then(function(jsonData) {
 
   jsonData = parseData(jsonData);
 
-  d3.csv("data/full_data.csv").then(function(csvData) {
+  d3.csv("https://covid.ourworldindata.org/data/ecdc/full_data.csv").then(function(csvData) {
+
+    console.log(csvData)
+
+    // Standardize the data
+    for (let datum of csvData) {
+
+      datum.location = datum.location.replace(" ", "-");
+    }
 
     function drawChart(data, target, segment, countries, mainChart, annotate) {
 
