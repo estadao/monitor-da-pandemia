@@ -1,8 +1,8 @@
-<?php require $_SERVER['DOCUMENT_ROOT'] . '/include/core.php' ?>
+<?php // require $_SERVER['DOCUMENT_ROOT'] . '/include/core.php //' ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-  <?php $core->include('head-opening') ?>
+  <?php // $core->include('head-opening') ?>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +11,15 @@
 
   <title><?= $app->title ?> – Estadão</title>
 
-  <?php $core->include('seo') ?>
-  <?php $core->include('sharing') ?>
-  <?php $core->include('favicon') ?>
+  <?php // $core->include('seo') ?>
+  <?php // $core->include('sharing') ?>
+  <?php // $core->include('favicon') ?>
 
-  <?php $core->include('head-closing') ?>
+  <?php // $core->include('head-closing') ?>
 
   <body>
 
-    <?php $core->include('body-opening') ?>
+    <?php // $core->include('body-opening') ?>
 
 
     <div class="estado-header">
@@ -274,6 +274,6 @@
 
 
   </body>
-  <?php $core->include('body-closing') ?>
+  <?php // $core->include('body-closing') ?>
 
 </html>

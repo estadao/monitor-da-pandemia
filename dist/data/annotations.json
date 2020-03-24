@@ -212,22 +212,22 @@
 
   "note" : {
 
-    "label" : "Estado de Nova Iorque proíbe reuniões de mais de 500 pessoas",
-    "title" : "12.03.2020",
-    "mobileWrap"  : 180,
-    "desktopWrap" : 180
+    "label" : "Estado da Califórnia ordena que cidadãos não saiam de casa",
+    "title" : "19.03.2020",
+    "mobileWrap"  : 150,
+    "desktopWrap" : 150
 
     },
 
   "location" : "United-States",
-  "date" : "2020-03-12",
-  "value" : 1312,
+  "date" : "2020-03-19",
+  "value" : 9415,
 
-  "mobileDx": 0,
-  "mobileDy": -55,
+  "mobileDx": 20,
+  "mobileDy": -15,
 
-  "desktopDx" : 0,
-  "desktopDy" : -55
+  "desktopDx" : 20,
+  "desktopDy" : -15
 
   },
 
@@ -396,16 +396,16 @@
 
   "note" : {
 
-    "label" : "Primeiro ministro anuncia fechamento de escolas",
-    "title" : "18.03.2020",
+    "label" : "Governo declara quarentena nacional",
+    "title" : "23.03.2020",
     "mobileWrap"  : 180,
     "desktopWrap" : 180
 
     },
 
   "location" : "United-Kingdom",
-  "date" : "2020-03-18",
-  "value" : 1950,
+  "date" : "2020-03-23",
+  "value" : 5683,
 
   "mobileDx": 0,
   "mobileDy": -30,
@@ -414,9 +414,6 @@
   "desktopDy" : -30
 
   }
-
-
-
 
 
 ]
